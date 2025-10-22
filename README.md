@@ -8,6 +8,7 @@ Note: scoring is less precise than the official controller app, since this does 
 
 * Just Dance 2017 (PC)
 * Python 3.9+
+* main.py
 
 ## Installation
 
