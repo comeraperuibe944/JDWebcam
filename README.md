@@ -7,7 +7,7 @@ Note: scoring is less precise than the official controller app since this is not
 ## Requirements
 
 * Just Dance 2017
-* [Python](https://www.python.org/downloads/release/python-31210/)
+* [Python 3.12](https://www.python.org/downloads/release/python-31210/)
 * main.py
 
 ## Installation
