@@ -29,11 +29,12 @@ python main.py
 ```
 
 ## Known-Issues
-
-* Scoring not very accurate
+  
 * Can't change dancers
+* Scoring's not very accurate
+* Multiplayer's not implemented
 
-If you're a dev, feel free to commit changes and contact me.
+If you're a dev, feel free to implement things, commit changes and contact me.
 
 ## License
 
