@@ -27,9 +27,11 @@ python main.py
 ```
 
 ## Known-Issues
-If you're a dev, feel free to commit changes and contact me.
+
 * Scoring not very accurate
 * Can't change dancers
+
+If you're a dev, feel free to commit changes and contact me.
 
 ## License
 
