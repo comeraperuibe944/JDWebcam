@@ -29,10 +29,11 @@ python main.py
 ```
 
 ## Known-Issues
-  
+
 * Can't change dancers
-* Scoring's not very accurate
-* Multiplayer's not implemented
+* Console not supported
+* Scoring isn't very accurate
+* Multiplayer isn't implemented
 
 If you're a dev, feel free to implement things, commit changes and contact me.
 
