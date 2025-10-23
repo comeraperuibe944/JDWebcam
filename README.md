@@ -12,7 +12,7 @@ Note: scoring is less precise than the official controller app since this is not
 
 ## Installation
 
-On windows, go to Settings > Bluetooth & devices > Cameras, select your camera, and click Edit under "Advanced camera options". Toggle on **"Allow multiple apps to use the camera at the same time"**
+On windows, go to Settings > Bluetooth & devices > Cameras, select your camera, and click Edit under "Advanced camera options". Toggle on **"Allow multiple apps to use the camera at the same time"**.
 
 Then run this on cmd:
 
@@ -20,7 +20,9 @@ Then run this on cmd:
 pip install websockets opencv-python mediapipe numpy
 ```
 
-Open Just Dance's "play with your smartphone" and finally you can double-click or start the program with:
+Open Just Dance's "play with your smartphone" screen.
+
+Double-click or start the program with:
 
 ```
 python main.py
