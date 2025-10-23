@@ -12,7 +12,9 @@ Note: scoring is less precise than the official controller app since this is not
 
 ## Installation
 
-After installing Python, run this on cmd:
+On windows, go to Settings > Bluetooth & devices > Cameras, select your camera, and click Edit under "Advanced camera options". Toggle on **"Allow multiple apps to use the camera at the same time"**
+
+Then run this on cmd:
 
 ```
 pip install websockets opencv-python mediapipe numpy
@@ -23,6 +25,11 @@ Then double-click or start the program with:
 ```
 python main.py
 ```
+
+## Known-Issues
+If you're a dev, feel free to commit changes and contact me.
+* Scoring not very accurate
+* Can't change dancers
 
 ## License
 
