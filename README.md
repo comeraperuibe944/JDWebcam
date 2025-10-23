@@ -20,7 +20,7 @@ Then run this on cmd:
 pip install websockets opencv-python mediapipe numpy
 ```
 
-Then double-click or start the program with:
+Open Just Dance's "play with your smartphone" and finally you can double-click or start the program with:
 
 ```
 python main.py
