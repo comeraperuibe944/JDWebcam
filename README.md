@@ -20,6 +20,10 @@ Then run this on cmd:
 pip install websockets opencv-python mediapipe numpy
 ```
 
+```
+pip install --upgrade protobuf
+```
+
 Open Just Dance's "play with your smartphone" screen.
 
 Double-click or start the program with:
