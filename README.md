@@ -28,14 +28,14 @@ Double-click or start the program with:
 python main.py
 ```
 
-## Known-Issues
+## FAQ and workarounds
 
-* Can't change dancers
-* Console not supported
-* Scoring isn't very accurate
-* Multiplayer isn't implemented
+* Can't change dancers -> connect a phone before
+* Console not supported -> should work by tweaking a bit of code
+* Scoring isn't very accurate -> tap your shoulder when scoring OKs
+* Multiplayer isn't implemented -> only one player per camera for now
 
-If you're a dev, feel free to implement things, commit changes and contact me.
+If you're a dev, feel free to implement things, fix bugs, commit changes and contact me.
 
 ## License
 
