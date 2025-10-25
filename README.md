@@ -33,7 +33,7 @@ python main.py
 * Can't change dancers -> connect a phone before
 * Console not supported -> should work by tweaking a bit of code
 * Scoring isn't very accurate -> tap your shoulder when scoring OKs
-* Multiplayer isn't implemented -> only one player per camera for now
+* Multiplayer isn't implemented -> possible if you have multiple laptops on the same network
 
 If you're a dev, feel free to implement things, fix bugs, commit changes and contact me.
 
