@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 import asyncio
 import websockets
 import json
@@ -13,6 +10,12 @@ import numpy as np
 import math
 import socket
 import sys
+
+#patch for websocket limit (v1.1)
+try:
+    websockets.connect = websockets.client.connect = (lambda c: (lambda *a, **k: c(*a, max_size=k.get('max_size', 10*1024*1024), **k)))(websockets.connect)
+except:
+    pass
 
 WS_SUBPROTOCOL = 'v1.phonescoring.jd.ubisoft.com'
 ACCEL_ACQUISITION_FREQ_HZ = 200.0
@@ -278,7 +281,7 @@ def webcam_accelerometer_thread(controller: VirtualController):
 
         if not has_hand:
             last_pos_vec = None
-            cv2.putText(frame, "Mao nao detectada", (10, y_offset),
+            cv2.putText(frame, "Hand undetected", (10, y_offset),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.6, COLOR_ORANGE, 1, cv2.LINE_AA)
             y_offset += 25
             jd_x, jd_y, jd_z = 0.0, 0.0, 0.0
